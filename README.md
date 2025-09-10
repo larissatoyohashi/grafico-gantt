@@ -54,3 +54,27 @@ classDef vermelho fill: #E64C3C, stroke: #000, strike-width: 1px;
 
 # crystal - atividade 02
 
+```mermaid
+graph TD
+  subgraph Matriz
+A1[" Agendamento lento - C10"]:::branco
+A2[" E-commerce fora de ar - E50"]:::laranja
+A3[" Sistema hospitalar com falhas - V50"]:::laranja
+A4[" Delivery sem atualização de status - C8"]:::branco
+A5[" Registro de ponto do RH - D20"]:::amarelo
+A6[" Email corporativo fora do ar - E20"]:::amarelo
+A7[" Falha de segurança na fintech - E100"]:::vermelho
+A8[" Sistema de controle de tráfego aéreo - V100"]:::vermelho
+
+
+
+ 
+end
+
+classDef branco fill: #fff, stroke: #000, strike-width: 1px;
+classDef amarelo fill: #FFD8D, stroke: #000, strike-width: 1px;
+classDef laranja fill: #FFA233, stroke: #000, strike-width: 1px;
+classDef vermelho fill: #E64C3C, stroke: #000, strike-width: 1px;
+
+```
+
