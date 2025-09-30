@@ -86,11 +86,9 @@ gantt
 title Sistema de Biblioteca Online
 dateFormat YYYY-MM-DD
 section Planejamento
-    Definição de Requisitos      :done,    req, 2025-01-09, 5d
-    Design da Arquitetura        :active,  arch, after req, 5d
 
-1ª Etapa - Definição de requisitos:active pa, 2025-01-01, 10d
-1ª Etapa - Design :active pa, 2025-01-10, 10d
+1ª Etapa - Definição de requisitos:done, 2025-01-01, 10d
+1ª Etapa - Design :done, 2025-01-10, 10d
 2ª Etapa - Módulo de Usuário:active pa, 2025-01-20, 15d
 2ª Etapa - Módulo de Acervo:active pa, 2025-02-04, 15d
 3ª Etapa - Teste de autenticação: pt, 2025-02-19, 10d
