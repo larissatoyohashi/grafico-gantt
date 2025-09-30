@@ -78,3 +78,21 @@ classDef vermelho fill: #E64C3C, stroke: #000, strike-width: 1px;
 
 ```
 
+
+# Gráfico Gantt - Reposição FETEPS
+
+```mermaid
+gantt
+title Sistema de Biblioteca Online
+dateFormat YYYY-MM-DD
+section Planejamento
+1ª Etapa - Definição de requisitos:active pa, 2025-01-01, 10d
+1ª Etapa - Design :active pa, 2025-01-10, 10d
+2ª Etapa - Módulo de Usuário:active pa, 2025-01-20, 15d
+2ª Etapa - Módulo de Acervo:active pa, 2025-02-04, 15d
+3ª Etapa - Teste de autenticação: pt, 2025-02-19, 10d
+3ª Etapa - Teste de integração: pt, 2025-02-29, 10d
+
+
+```
+
