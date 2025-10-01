@@ -104,7 +104,7 @@ section Implantação
 
 ```
 
-# Atividade Grafico Crystal
+# Atividade Grafico Crystal - Gantt
 
 ```mermaid
 gantt
@@ -134,3 +134,18 @@ gantt
     Preparação do Servidor      :f1, after t3, 1w
     Implantação e Entrega Final :f2, after f1, 1w
 ```
+# Atividade Grafico Crystal - Crystal
+
+```mermaid
+graph TD
+  subgraph Matriz
+A1[" Agendamento lento - C10"]:::branco
+A2[" E-commerce fora de ar - E50"]:::laranja
+A3[" Sistema hospitalar com falhas - V50"]:::laranja
+A4[" Delivery sem atualização de status - C8"]:::branco
+A5[" Registro de ponto do RH - D20"]:::amarelo
+A6[" Email corporativo fora do ar - E20"]:::amarelo
+A7[" Falha de segurança na fintech - E100"]:::vermelho
+A8[" Sistema de controle de tráfego aéreo - V100"]:::vermelho
+
+end
