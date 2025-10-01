@@ -139,13 +139,10 @@ gantt
 ```mermaid
 graph TD
   subgraph Matriz
-A1[" Agendamento lento - C10"]:::branco
-A2[" E-commerce fora de ar - E50"]:::laranja
-A3[" Sistema hospitalar com falhas - V50"]:::laranja
-A4[" Delivery sem atualização de status - C8"]:::branco
-A5[" Registro de ponto do RH - D20"]:::amarelo
-A6[" Email corporativo fora do ar - E20"]:::amarelo
-A7[" Falha de segurança na fintech - E100"]:::vermelho
-A8[" Sistema de controle de tráfego aéreo - V100"]:::vermelho
-
+A1[" Entrega 1 - D8"]:::branco
+A2[" Entrega 2 - D20"]:::amarelo
+A3[" Entrega 3 - C8"]:::branco
+A4[" Entrega 4 - E8"]:::amarelo
+A5[" Entrega 5 - E20"]:::amarelo
+A6[" Entrega final - E8"]:::laranja
 end
