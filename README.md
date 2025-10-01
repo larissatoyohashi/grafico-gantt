@@ -89,10 +89,16 @@ section Planejamento
 
 1ª Etapa - Definição de requisitos:done, 2025-01-01, 10d
 1ª Etapa - Design :done, 2025-01-10, 10d
+
+section Desenvolvimento
 2ª Etapa - Módulo de Usuário:active pa, 2025-01-20, 15d
 2ª Etapa - Módulo de Acervo:active pa, 2025-02-04, 15d
+
+section Teste
 3ª Etapa - Teste de autenticação: pt, 2025-02-19, 10d
 3ª Etapa - Teste de integração: pt, 2025-02-29, 10d
+
+section Implantação
 4ª Etapa - Preparação do Ambiente de Produção: pt, 2025-03-09, 10d
 4ª Etapa - Implementação: pt, 2025-03-19, 10d
 
