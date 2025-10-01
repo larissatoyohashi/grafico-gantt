@@ -106,6 +106,7 @@ section Implantação
 
 # Atividade Grafico Crystal
 
+```mermaid
 gantt
     title Cronograma - Sistema de Cadastro de Empresas Parceiras
     dateFormat  YYYY-MM-DD
@@ -135,3 +136,4 @@ gantt
     section Implantação
     Preparação do Servidor      :f1, after t3, 1w
     Implantação e Entrega Final :f2, after f1, 1w
+```
