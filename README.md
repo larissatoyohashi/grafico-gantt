@@ -146,3 +146,10 @@ A4[" Entrega 4 - E8"]:::amarelo
 A5[" Entrega 5 - E20"]:::amarelo
 A6[" Entrega final - E8"]:::laranja
 end
+
+classDef branco fill: #fff, stroke: #000, strike-width: 1px;
+classDef amarelo fill: #FFD8D, stroke: #000, strike-width: 1px;
+classDef laranja fill: #FFA233, stroke: #000, strike-width: 1px;
+classDef vermelho fill: #E64C3C, stroke: #000, strike-width: 1px;
+
+```
