@@ -104,3 +104,34 @@ section Implantação
 
 ```
 
+# Atividade Grafico Crystal
+
+gantt
+    title Cronograma - Sistema de Cadastro de Empresas Parceiras
+    dateFormat  YYYY-MM-DD
+    axisFormat  %Y-%m
+    
+    %% Define a data de início do projeto
+    %% Assumindo início em Outubro de 2025
+    
+    section Planejamento e Design
+    Levantamento de Requisitos :done, p1, 2025-10-01, 2w
+    Documentação Funcional     :done, p2, after p1, 2w
+    Design de Interface (UI/UX): p3, after p2, 4w
+
+    section Desenvolvimento (Ciclos Incrementais)
+    Configuração do Ambiente e BD  :active, d1, after p2, 1w
+    Módulo de Login (Entrega 1)    :d2, after d1, 2w
+    CRUD de Empresas (Entrega 2)   :d3, after d2, 3w
+    Upload de Logotipo (Entrega 3) :d4, after d3, 2w
+    Módulo de Relatórios (Entrega 4) :d5, after d4, 2w
+    Painel Admin (Entrega 5)     :d6, after d5, 2w
+
+    section Testes e Validação
+    Testes Unitários e Integração :crit, t1, after d2, 16w
+    Testes de Usabilidade         :t2, after d6, 2w
+    Correções e Ajustes Finais    :t3, after t2, 2w
+    
+    section Implantação
+    Preparação do Servidor      :f1, after t3, 1w
+    Implantação e Entrega Final :f2, after f1, 1w
